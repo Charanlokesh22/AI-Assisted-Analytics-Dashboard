@@ -1,0 +1,28 @@
+ai-analytics-dashboard/
+│
+├── backend/
+│   ├── src/main/java/com/analytics/dashboard/
+│   │   ├── AnalyticsDashboardApplication.java
+│   │   ├── controller/
+│   │   │   └── AnalyticsController.java
+│   │   ├── service/
+│   │   │   └── AnalyticsService.java
+│   │   ├── repository/
+│   │   │   └── AnalyticsRepository.java
+│   │   ├── model/
+│   │   │   └── AnalyticsRecord.java
+│   │   └── util/
+│   │       └── QueryGenerator.java
+│   │
+│   ├── src/main/resources/
+│   │   ├── application.yml
+│   │   └── schema.sql
+│   │
+│   └── pom.xml
+│
+├── docker/
+│   └── Dockerfile
+│
+├── README.md
+└── .gitignore
+
